@@ -1,0 +1,70 @@
+.buttons-top--small, .buttons-middle--small, .buttons-bottom--small{
+	display: flex;
+	margin: 10px 0px;
+}
+
+.buttons-top__btn-tab--small{
+	width: 87px;
+	height: 36px;
+	border: none;	
+}
+
+.buttons-top__btn-tab--small{
+  	cursor: pointer;
+}
+
+.buttons-top-small--blue{
+	background: #18A0FB;
+	color: #FFFFFF;
+	border-radius: 5px 0px 0px 5px;
+}
+
+.buttons-top-small--white{
+	background: #FFFFFF;
+	border: 1px solid #E0E0E0;
+	box-sizing: border-box;
+	border-radius: 0px 5px 5px 0px;
+}
+
+.buttons-middle__btn-sm{
+	width: 48px;
+	height: 36px;
+	cursor: pointer;
+}
+
+.buttons-middle--small{
+	margin: 24px 0px;
+}
+.search--black{
+	fill: black;
+}
+
+.buttons-bottom__btn-bottom--sm{
+	width: 58px;
+	height: 36px;
+	cursor: pointer;
+}
+
+.search-circle{
+	width: 130px;
+	display: flex;
+}
+.red-srch{
+	background: #FF3E1D;
+	border-radius: 100px;
+	height: 36px;
+	width: 36px;
+	padding: 9px;
+	margin: 5px 15px;
+	cursor: pointer;
+}
+
+.green-srch{
+	background: #00D200;
+	border-radius: 29px;
+	width: 48px;
+	height: 48px;
+	padding: 16px;
+	cursor: pointer;
+	margin: 5px;
+}

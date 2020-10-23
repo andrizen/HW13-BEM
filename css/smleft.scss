@@ -1,0 +1,80 @@
+.buttons-small{
+	display: flex;
+	flex-wrap: wrap;
+	width: 670px;
+	
+}
+
+.btn-container-bottom{
+	display: flex;
+}
+
+.buttons-small__all{
+	width: 116px;
+	height: 36px;
+	border-radius: 5px;
+	margin: 10px 25px;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 16px;
+	text-align: center;
+}
+
+
+.buttons-small__all:hover{
+  cursor: pointer;
+}
+
+.buttons-small__text-right{
+	position: relative;
+	padding-left: 5px;
+	padding-right: 10px;
+	bottom: 5px;
+}
+
+.tags__btn--up{
+	width: 65px;
+	height: 28px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 16px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.tags__btn--down{
+	width: 51px;
+	height: 28px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 16px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.tags__btn-up--left{
+	background: #FFFFFF;
+	border: 1px solid #E0E0E0;
+	box-sizing: border-box;
+}
+
+.tags__btn-down--left{
+	background: rgba(224, 224, 224, 0.3);
+	border: 1px solid #E0E0E0;
+	box-sizing: border-box;
+}
+
+.tag-txt{
+	position:relative;
+	padding: 0px 5px;
+	bottom: 3px;
+}
+
+
+.tags{
+	margin: 50px 0px 15px 0px; 
+}

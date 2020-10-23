@@ -1,0 +1,76 @@
+.buttons-top, .buttons-middle, .buttons-bottom{
+	display: flex;
+	margin: 12px 0px;
+
+}
+
+.buttons-top__btn-top{
+	width: 56px;
+	height: 48px;
+	border: none;
+	cursor: pointer;	
+}
+
+.buttons-top__btn-top--left{
+	background: #18A0FB;
+	border-radius: 5px 0px 0px 5px;
+}
+
+.buttons-top__btn-top--middle{
+	background: #FFFFFF;
+	border-radius: 0px;
+	border: 1px solid #E0E0E0;
+}
+
+.buttons-top__btn-top--right{
+	border: 1px solid #E0E0E0;
+	box-sizing: border-box;
+	border-radius: 0px 5px 5px 0px;
+	background: #FFFFFF;
+}
+
+.buttons-middle{
+	margin: 24px 0px;
+}
+.buttons-middle__btn-tab{
+	width: 134px;
+	height: 48px;
+	cursor: pointer;
+}
+
+.buttons-middle--blue{
+	background: #18A0FB;
+	color: #FFFFFF;
+	border-radius: 5px 0px 0px 5px;
+}
+
+.buttons-middle--white{
+	background: #FFFFFF;
+	border: 1px solid #E0E0E0;
+	box-sizing: border-box;
+	border-radius: 0px 5px 5px 0px;
+}
+
+.buttons-bottom__btn-bottom{
+	width: 106px;
+	height: 48px;
+	cursor: pointer;
+} 
+
+.buttons-bottom--s{
+	background: #18A0FB;
+	color: #FFFFFF;
+	border-radius: 5px 0px 0px 5px;
+}
+
+.buttons-bottom--m{
+	background: #FFFFFF;
+	border: 1px solid #E0E0E0;
+}
+
+.buttons-bottom--l{
+	background: #FFFFFF;
+	border: 1px solid #E0E0E0;
+	box-sizing: border-box;
+	border-radius: 0px 5px 5px 0px;
+}
